@@ -1,0 +1,48 @@
+/* type selector */
+body {
+  background-color: white;
+  }
+
+h1{
+  color:black;
+}
+
+p {
+  color: darkblue;
+}
+
+/* id selector */
+#page_title {
+  text-align: center;
+  color: rgb(42, 19, 143);
+}
+
+/* class selector */
+.center {
+  text-align: center;
+}
+
+/* pseudoclass */
+a:hover { 
+  color: #FF00FF;
+}
+
+/* descendent selector */
+hgroup h3 {
+  color: green;
+}
+
+section h1 {
+  font-size: 50;
+}
+
+/* attribute selector */
+footer[target=_footerbar]{
+  color: yellow;
+  background-color: darkblue;
+}
+
+/* multiple style rules */
+p[target=_copyright], ul li{
+  color: yellow;
+}
